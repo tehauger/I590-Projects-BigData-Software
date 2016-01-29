@@ -4,6 +4,7 @@ def fizzbuzz(n):
     """
 	Returns "fizz" if entry is a multiple of 2, "buzz" if entry is multiple of 3, "fizzbuzz" if entry is multiple of 2 and 3, and original number entry if a multiple of neither
 	"""
+n=input("Enter Integer: ")
 x=(n/2.0)
 y=(n/3.0)
 
@@ -16,7 +17,5 @@ elif (y).is_integer():
 else:
     print n
     
-if __name__ == '__main__':
-    n=int(sys.argv[1])
-    print fizzbuzz(n)
+
 	
