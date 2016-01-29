@@ -15,4 +15,5 @@ elif (y).is_integer():
     print 'buzz'
 else:
     print n
-	
+if __name__ == '__main__':
+    n=int(sys.argv[1])	
