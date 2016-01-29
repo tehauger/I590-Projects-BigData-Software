@@ -8,12 +8,15 @@ x=(n/2.0)
 y=(n/3.0)
 
 if (x).is_integer() and (y).is_integer():
-    print 'fizzbuzz'
+    return 'fizzbuzz'
 elif (x).is_integer() :
-    print 'fizz'
+    return 'fizz'
 elif (y).is_integer():
-    print 'buzz'
+    return 'buzz'
 else:
-    print n
+    return n
+    
 if __name__ == '__main__':
-    n=int(sys.argv[1])	
+    n=int(sys.argv[1])
+    print fizzbuzz(n)
+	
